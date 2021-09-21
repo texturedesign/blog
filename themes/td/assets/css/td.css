@@ -1,0 +1,378 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+a, a:hover {
+  color: #5f783b;
+}
+
+code {
+  color: #7C2B8F;
+  font-size: 95%;
+}
+
+body {
+  background-image: url('/assets/header.webp');
+  background-position: center 0;
+  background-repeat: repeat-x;
+  padding-top: 192px;
+}
+
+article {
+  text-align: justify;
+  font-size: 15pt;
+}
+
+article .entry-content p a {
+  text-decoration: underline;
+}
+
+article section {
+  margin-top: 1.5rem;
+}
+
+article .footnote {
+  font-size: 12pt;
+}
+
+article .summary {
+  font-style: italic;
+  border-bottom: 2px solid #511b5d;
+  color: #511b5d;
+  margin: 0 -2em;
+  padding: 2em;
+}
+
+.entry-title {
+  padding-bottom: 2.0rem;
+}
+
+blockquote {
+  float: right;
+  width: 50%;
+  margin-right: -20%;
+  padding-left: 5%;
+  color: #87c331;
+}
+
+.main-quote blockquote {
+  float: none;
+  width: inherit;
+  margin: inherit;
+  padding: 0 2%;
+}
+
+blockquote p {
+  font-weight: bold;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.main-quote blockquote p {
+  font-weight: normal;
+}
+
+article h3 {
+  margin-top: 1.5rem;
+}
+
+.container {
+  max-width: 852px;
+}
+
+.metadata {
+  margin-top: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+article p, article li {
+  line-height: 1.618033988;
+}
+
+article figure {
+  margin-top: 0.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 13pt;
+  line-height: 1.4142;
+}
+
+article figure .legend {
+  text-decoration: underline;
+}
+
+article figure img {
+  margin-bottom: 0.4rem;
+}
+
+article figcaption {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+article ol li {
+    list-style-type: none;
+    counter-increment: lst;
+    position: relative;
+}
+
+article ol li:before {
+    content: counter(lst) ".";
+    position: absolute;
+    left: -2.5em;
+    width: 2em;
+    text-align: right;
+    color: #5f783b;
+    font-weight: bold;
+}
+
+article dt {
+  color: #5f783b;
+}
+
+article dd {
+  margin-left: 2em;
+}
+
+article .line-block {
+  margin-top: 0.2rem;
+  margin-bottom: 1.2rem;
+}
+
+article .footnote {
+  margin-top: 2rem;
+}
+
+.blog-header {
+  display: none;
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-150 { height: 150px; }
+@media (min-width: 768px) {
+  .h-md-150 { height: 150px; }
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+article {
+  margin-bottom: 4rem;
+}
+article:last-child {
+  margin-bottom: 0;
+}
+.entry-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+article .metadata {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  padding-bottom: 19px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .nbb-navbar-toggler {
+    display: none;
+  }
+
+  .nbb-header {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+  }
+}
+
+/* Various fixes that make this theme look better for Nikola's needs */
+.navbar-brand {
+    padding: 0;
+    white-space: initial;
+}
+
+.bootblog4-featured-large-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: .25rem!important;
+    border-bottom-right-radius: .25rem!important;
+}
+
+.bootblog4-featured-jumbotron-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bootblog4-right-nav {
+    flex-direction: row;
+}
+
+.bootblog4-right-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.bootblog4-featured-text {
+    overflow: auto;
+}
+/* extend the mobile appearance to `sm`, because otherwise weird things happen */
+@media (min-width: 576px) {
+    .nbb-navbar-toggler {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .bootblog4-right-nav {
+        margin-top: 1rem;
+    }
+
+    .bootblog4-search-form-holder {
+        position: absolute;
+        top: 2.75rem;
+    }
+
+    .bootblog4-search-form-holder input.form-control {
+        width: 6rem;
+    }
+
+    .bootblog4-brand {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .nbb-navbar-toggler {
+        display: none;
+    }
+
+    .flex-collapse {
+        display: flex !important;
+    }
+
+    .bootblog4-search-form-holder {
+        display: block !important;
+    }
+
+    .bootblog4-brand {
+        text-align: center;
+    }
+}

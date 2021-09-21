@@ -1,0 +1,10 @@
+[Theme]
+engine = mako
+parent = bootstrap4
+author = alexjc
+author_url = https://texture.design/
+license = CC BY-NC-ND 4.0
+tags = creativeai
+
+[Family]
+family = bootblog4
