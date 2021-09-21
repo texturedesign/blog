@@ -9,7 +9,7 @@ BLOG_EMAIL = "hi@texture.design"
 
 BLOG_DESCRIPTION = ""  # (translatable)
 DEFAULT_LANG = "en"
-DEFAULT_PREVIEW_IMAGE = "/images/profile.png"
+DEFAULT_PREVIEW_IMAGE = "/assets/profile.png"
 
 TRANSLATIONS = { DEFAULT_LANG: "", }
 TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
