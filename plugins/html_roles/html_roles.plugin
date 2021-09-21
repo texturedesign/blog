@@ -1,0 +1,13 @@
+[Core]
+Name = html_roles
+Module = html_roles
+
+[Nikola]
+Compiler = rest
+PluginCategory = CompilerExtension
+
+[Documentation]
+Author = alexjc
+Version = 0.1
+Website = https://texture.design/blog/
+Description = Roles specifically for this blog.
